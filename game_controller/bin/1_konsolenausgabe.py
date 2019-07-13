@@ -8,7 +8,7 @@ time.sleep(5)
 Eure Aufgaben:
 1) 'Hallo <dein name>' auf Konsole ausgeben.
 2) Nur ausgeben wenn dein Name nicht "Seb" ist.
-3) 
+3) Das ganze in einer Schleife
 
 Funktionen die ihr brauchen könntet:
 
@@ -55,3 +55,14 @@ for ein_wert in eine_liste:
 """
 
 # Euer Code kommt hier hin
+
+
+while 1:
+
+    name = input("Bitte gebe hier deinen Namen ein: ")
+
+    if name != "Seb" and name != "seb":
+        print("Hallo %s" % name)
+
+    else:
+        print("Du darfst hier nicht rein!")
